@@ -78,7 +78,7 @@ public class AdvancedEmpDeptTests
     {
         var emps = Database.GetEmps();
 
-        var result = emps.Where(emp => emp.Sal > 500).All(emp => emp.Sal > 500); 
+        var result = emps.All(emp => emp.Sal > 500); 
         
         Assert.True(result);
     }
@@ -127,13 +127,13 @@ public class AdvancedEmpDeptTests
         var result = emps.Select(
             e => new
             {
-                Ename = e.EName,
+                EName = e.EName,
                 Total = e.Sal + (e.Comm ?? 0)
             })
             .ToList();
         // var result = null; 
         //
-        // Assert.Contains(result, r => r.EName == "ALLEN" && r.Total == 1900);
+        Assert.Contains(result, r => r.EName == "ALLEN" && r.Total == 1900);
     }
 
     // 20. Join all three: Emp → Dept → Salgrade
