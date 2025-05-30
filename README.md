@@ -64,3 +64,19 @@ dotnet test
 ---
 
 Feel free to fork this repository and use the code for educational purposes. Contributions and improvements are welcome!
+
+### Previous Projects
+
+**[APBD_1 - Simple yet Advanced Logistics Manager Example](https://github.com/x0-lf/APBD_1)**
+
+### Next Projects in the Series
+
+**[APBD_3 - REST API Travel Agency](https://github.com/x0-lf/APBD_3)**
+
+**[APBD_4 - Warehouse Management](https://github.com/x0-lf/APBD_4)**
+
+**[APBD_5 - EF (Code First) App that helps to manage prescriptions](https://github.com/x0-lf/APBD_5)**
+
+**[APBD_6 – EF (Database First) Client and Trip Management API](https://github.com/x0-lf/APBD_6)**
+
+
